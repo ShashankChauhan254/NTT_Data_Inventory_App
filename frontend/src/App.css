@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f9;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.summary-card,
+.form-card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.low-stock-text {
+  color: red;
+  font-weight: bold;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.form input,
+.form select {
+  padding: 8px;
+  flex: 1 1 180px;
+}
+
+.button-group {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.primary-btn {
+  background: #007bff;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.secondary-btn {
+  background: gray;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background: orange;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.inventory-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+.inventory-table th,
+.inventory-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.inventory-table th {
+  background-color: #007bff;
+  color: white;
+}
+
+.low-stock-row {
+  background-color: #ffe5e5;
+}
+
+.status-low {
+  color: red;
+  font-weight: bold;
+}
+
+.status-ok {
+  color: green;
+  font-weight: bold;
+}
